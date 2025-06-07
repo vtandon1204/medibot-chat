@@ -1,0 +1,17 @@
+# IDE/config files
+.idea/
+
+# Environment and config
+.env
+auth_config.yaml
+
+# FAISS or vectorstore DB files (usually binary, regenerated)
+vectorstore/
+
+# Local data and temp files
+data.txt
+data/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]

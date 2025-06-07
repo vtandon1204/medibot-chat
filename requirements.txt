@@ -1,0 +1,13 @@
+langchain
+langchain_community
+langchain_huggingface
+faiss-cpu
+pypdf
+sentence-transformers
+huggingface_hub
+streamlit
+streamlit-authenticator
+bcrypt
+pyyaml
+requests
+gdown
