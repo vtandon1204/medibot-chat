@@ -436,7 +436,7 @@ def medi_bot_app():
                 sources = []
                 for doc in source_documents:
                     source_name = doc.metadata.get('source', 'Medical Reference')
-                    page_content = doc.page_content[:200] + "..." if len(doc.page_content) > 500 else doc.page_content
+                    page_content = doc.page_content[:300] + "..." if len(doc.page_content) > 300 else doc.page_content
                     sources.append(f"📄 **{source_name}**\n\n{page_content}")
 
             # Display response
