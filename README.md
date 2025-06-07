@@ -63,3 +63,7 @@ streamlit run app.py
 3. Receive evidence-based answers with source citations
 4. Review conversation history in the sidebar
 5. Logout when finished
+
+## ⚙️ Technical Architecture
+
+![Technical Architecture](medibot_1_tech_arch.png) 
