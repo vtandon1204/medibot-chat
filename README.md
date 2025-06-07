@@ -1,6 +1,6 @@
 # 🩺 MediBot - AI-Powered Medical Assistant
 
-![MediBot Interface](https://via.placeholder.com/800x400.png?text=MediBot+Interface+Demo) 
+![MediBot Interface](medichatbot_interface.png) 
 
 MediBot is a secure, AI-powered web application that provides evidence-based answers to medical questions using state-of-the-art natural language processing technology. Built for patients seeking preliminary health information, it combines a user-friendly interface with robust medical knowledge retrieval.
 
