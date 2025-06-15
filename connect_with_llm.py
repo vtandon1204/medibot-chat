@@ -1,4 +1,4 @@
-# 1. Setup LLM (Mistral with HuggingFace)
+# 1. Setup LLM (Zephyr-7B with HuggingFace)
 
 import os
 from langchain_huggingface import HuggingFaceEndpoint # type: ignore
@@ -14,7 +14,7 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 if not HF_TOKEN:
     raise ValueError("Please set the HF_TOKEN environment variable with your Hugging Face token.")
 
-HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3" 
+HUGGINGFACE_REPO_ID = "HuggingFaceH4/zephyr-7b-beta" 
 
 def load_llm(huggingface_repo_id: str):
     llm =  HuggingFaceEndpoint(
@@ -34,8 +34,7 @@ Use the following pieces of information provided in the context to answer the us
 Context: {context}
 Question: {question}
 
-Start your answer with "Answer: " directly followed by the answer. No other text before "Answer: ". No need to repeat the question. No small talk.
-
+Start your answer directly followed by the answer. No need to repeat the question. No small talk.
 """
 
 

@@ -11,4 +11,3 @@ bcrypt
 pyyaml
 requests
 gdown
-mistral_inference

@@ -6,7 +6,7 @@ MediBot is a secure, AI-powered web application that provides evidence-based ans
 
 ## ✨ Key Features
 
-- **Medical Q&A Assistant**: Get answers to health-related questions powered by Mistral-7B LLM
+- **Medical Q&A Assistant**: Get answers to health-related questions powered by Zephyr-7B LLM
 - **Evidence-Based Responses**: All answers include citations from medical literature
 - **Secure Authentication**: User registration/login with session persistence
 - **Medical-Themed UI**: Clean, professional interface designed for healthcare applications
@@ -16,7 +16,7 @@ MediBot is a secure, AI-powered web application that provides evidence-based ans
 ## 🚀 Technology Stack
 
 - **Frontend**: Streamlit
-- **AI Models**: Hugging Face Transformers (Mistral-7B)
+- **AI Models**: Hugging Face Transformers (Zephyr-7B)
 - **Vector Database**: FAISS
 - **RAG Pipeline**: LangChain
 - **Authentication**: SQLite with secure password hashing

@@ -198,7 +198,7 @@ def download_vectorstore():
             os.remove(ZIP_PATH)
 
 # Update get_vectorstore()
-@st.cache_resource
+# @st.cache_resource
 def get_vectorstore():
     download_vectorstore()
     embedding_model = HuggingFaceEmbeddings(
@@ -409,7 +409,7 @@ def medi_bot_app():
             Start your answer directly followed by the answer. No need to repeat the question. No small talk.
         """
         
-        HUGGINGFACE_REPO_ID = "mistralai/Mistral-7B-Instruct-v0.3"
+        HUGGINGFACE_REPO_ID = "HuggingFaceH4/zephyr-7b-beta"
         HF_TOKEN = os.environ.get("HF_TOKEN")
 
         try:

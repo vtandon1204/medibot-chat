@@ -15,3 +15,5 @@ data/
 # Python cache and bytecode
 __pycache__/
 *.py[cod]
+
+venv
